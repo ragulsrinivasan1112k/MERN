@@ -1,0 +1,60 @@
+body{
+    margin:35px;
+   
+}
+.body{
+    border-style: groove;
+    border-radius:35px;
+    border-color: aqua;
+    background-color: black;
+    padding: 15px;
+}
+h4{
+    color: aqua;
+}
+.name{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(0, 255, 255);
+}
+.text1{
+    text-align: center;
+    color:white;
+}
+.text{
+    text-align: center;
+    color:white;
+}
+.imag{
+        width: 180px;
+    border-radius:50%;
+}
+.imag:hover{
+background-color: aqua solid;
+}
+.contact{
+    color: aqua;
+}
+    @media screen and ( max-width:415px) {
+        .imag{
+            width: 100px;
+            border-radius: 50%;
+        }
+        
+    }@media screen and ( max-width:331px) {
+        .imag{
+            width: 70px;
+            border-radius: 50%;
+        }
+        
+    }
+    @media screen and ( max-width:427px) {
+        .text{
+           font-size:small;
+        }
+    }
+    @media screen and ( max-width:386px) {
+        .text{
+           font-size:10px;
+        }
+    }
