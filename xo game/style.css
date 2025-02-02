@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:white;
+    margin-top: 50px;
+}
+.exitbutton {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+h2 {
+    font-size: 24px;
+    margin: 10px;
+}
+.xo {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+.xospace{
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+}
+.buttons {
+    margin-top: 20px;
+}
+.resetb {
+    background-color: rgb(227, 49, 197);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.backb {
+    background-color: rgb(139, 138, 134);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
